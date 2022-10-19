@@ -1,0 +1,39 @@
+.Back{
+    background: rgb(246, 255, 248);
+    background: linear-gradient(90deg, rgb(248, 255, 250) 0%, rgb(220, 248, 234) 29%, rgba(8,164,195,1) 100%);
+}
+.Back2{
+    background: linear-gradient(90deg, rgb(224, 255, 233) 0%, rgb(126, 235, 150) 65%, rgb(56, 201, 43) 100%);
+}
+.Display{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px 10px 10px;
+}
+.displayText{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Aling{
+    margin-left: 500px;
+}
+.LogoTop{
+    padding: 15px 15px 15px;
+    width: 13%;
+}
+.Text{
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 30px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.text01{
+    text-align: center;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+.EditImg{
+    width: 552px;
+}
