@@ -1,3 +1,7 @@
+body{
+    margin-left: 150px;
+    margin-right: 150px;
+}
 .Back{
     background: rgb(246, 255, 248);
     background: linear-gradient(90deg, rgb(248, 255, 250) 0%, rgb(220, 248, 234) 29%, rgba(8,164,195,1) 100%);
@@ -8,6 +12,7 @@
 .Display{
     display: flex;
     flex-wrap: nowrap;
+    justify-content: space-between;
     padding: 10px 10px 10px;
 }
 .displayText{
@@ -15,9 +20,10 @@
     justify-content: center;
     flex-direction: column;
 }
-.Aling{
-    margin-left: 500px;
+.BandeiraTop{
+    width: 125px;
 }
+
 .LogoTop{
     padding: 15px 15px 15px;
     width: 13%;
@@ -34,6 +40,29 @@
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
+.EditImgFlex{
+    display: flex;
+    justify-content: space-between;
+  
+}
 .EditImg{
-    width: 552px;
+    width: 33%;
+}
+a:link, a:visited {
+    background-color: #d0f5fc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif, Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 8px 45px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 0px 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+  
+a:hover, a:active {
+    background-color: rgb(167, 223, 245);
+    color: white;
 }
