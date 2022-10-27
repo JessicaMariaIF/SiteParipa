@@ -1,13 +1,17 @@
 body{
     margin-left: 150px;
     margin-right: 150px;
+    background-image: url(Img/back.jpg);
 }
 .Back{
     background: rgb(246, 255, 248);
     background: linear-gradient(90deg, rgb(248, 255, 250) 0%, rgb(220, 248, 234) 29%, rgba(8,164,195,1) 100%);
 }
-.Back2{
-    background: linear-gradient(90deg, rgb(224, 255, 233) 0%, rgb(126, 235, 150) 65%, rgb(56, 201, 43) 100%);
+.Back02{
+    background-color: #d0f5fc;
+}
+.Back03{
+    background-color: white;
 }
 .Display{
     display: flex;
@@ -21,7 +25,7 @@ body{
     flex-direction: column;
 }
 .BandeiraTop{
-    width: 125px;
+    width: 120px;
 }
 
 .LogoTop{
@@ -46,13 +50,18 @@ body{
   
 }
 .EditImg{
-    width: 33%;
+    width: 32%;
+    padding: 5px 5px 5px;
+}
+.BottonsDisplay{
+    display: flex;
+    justify-content: space-around;
 }
 a:link, a:visited {
     background-color: #d0f5fc;
-    font-family: Verdana, Geneva, Tahoma, sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif, Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(0, 0, 0);
-    padding: 8px 45px;
+    padding: 8px 40px;
     text-decoration: none;
     text-align: center;
     display: inline-block;
@@ -63,6 +72,9 @@ a:link, a:visited {
 }
   
 a:hover, a:active {
-    background-color: rgb(167, 223, 245);
+    background-color: rgb(144, 209, 235);
     color: white;
+}
+.LogoInsta{
+    width: 40px;
 }
